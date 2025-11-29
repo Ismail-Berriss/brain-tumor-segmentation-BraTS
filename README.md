@@ -8,23 +8,23 @@ The project includes data preprocessing, patch-based training, evaluation, uncer
 ## Project Structure
 
 .
-├── BraTS2020_3DUNet.ipynb # Main Jupyter Notebook (full pipeline)
-├── README.md # Project documentation
-├── checkpoint/ # Saved model weights (created at runtime)
-│ └── best_model.pth
-├── output/ # Predictions, plots, metrics (created at runtime)
-│ ├── training_metrics.csv
-│ └── training_history.png
-├── dataset/
-│ ├── MICCAI_BraTS2020_TrainingData/
-│ │ ├── BraTS20_Training_001/
-│ │ │ ├── BraTS20_Training_001_flair.nii
-│ │ │ ├── BraTS20_Training_001_seg.nii
-│ │ │ ├── BraTS20_Training_001_t1.nii
-│ │ │ ├── BraTS20_Training_001_t1ce.nii
-│ │ │ ├── BraTS20_Training_001_t2.nii
-│ ├── BraTS20_Training_002/
-│ └── ...
+├── BraTS2020_3DUNet.ipynb # Main Jupyter Notebook (full pipeline)  
+├── README.md # Project documentation  
+├── checkpoint/ # Saved model weights (created at runtime)  
+│ └── best_model.pth  
+├── output/ # Predictions, plots, metrics (created at runtime)  
+│ ├── training_metrics.csv  
+│ └── training_history.png  
+├── dataset/  
+│ ├── MICCAI_BraTS2020_TrainingData/  
+│ │ ├── BraTS20_Training_001/  
+│ │ │ ├── BraTS20_Training_001_flair.nii  
+│ │ │ ├── BraTS20_Training_001_seg.nii  
+│ │ │ ├── BraTS20_Training_001_t1.nii  
+│ │ │ ├── BraTS20_Training_001_t1ce.nii  
+│ │ │ ├── BraTS20_Training_001_t2.nii  
+│ ├── BraTS20_Training_002/  
+│ └── ...  
 
 You can adjust folder names as needed, but the notebook assumes `checkpoints/` and `outputs/` exist or can be created.
 
